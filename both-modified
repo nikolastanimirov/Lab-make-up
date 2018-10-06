@@ -1,0 +1,5 @@
+if [[ -z $(git status $say-hi) && $(git status $output.txt) ]]; then
+echo "err"
+else
+echo "ok"
+fi
